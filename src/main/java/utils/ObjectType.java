@@ -2,14 +2,19 @@ package utils;
 
 import java.util.HashMap;
 import java.util.Map;
-import fr.insee.rmes-gestion-api.config.Config;
 
-import fr.insee.rmes.bauhaus_services.rdf_utils.IRI;
-import fr.insee.rmes.persistance.ontologies.GEO;
-import fr.insee.rmes.persistance.ontologies.INSEE;
-import fr.insee.rmes.persistance.ontologies.ORG;
-import fr.insee.rmes.persistance.ontologies.QB;
-import fr.insee.rmes.persistance.ontologies.SDMX_MM;
+import config.Config;
+
+import fr.insee.core.ontologies.GEO;
+import fr.insee.core.ontologies.INSEE;
+import fr.insee.core.ontologies.ORG;
+import fr.insee.core.ontologies.QB;
+import fr.insee.core.ontologies.SDMX_MM;
+
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.vocabulary.FOAF;
+import org.eclipse.rdf4j.model.vocabulary.SKOS;
+
 
 public enum ObjectType {
 	CONCEPT("concept", SKOS.CONCEPT,  Config.CONCEPTS_BASE_URI),
