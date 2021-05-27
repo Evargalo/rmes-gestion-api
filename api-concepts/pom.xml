@@ -11,6 +11,8 @@
 	<name>api-concepts</name>
 	<modules>
 		<module>core</module>
+		<module>api-concepts</module>
+		<module>api-operations</module>
 	</modules>
 	<packaging>pom</packaging>
 </project>

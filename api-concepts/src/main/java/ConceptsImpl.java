@@ -1,8 +1,7 @@
-import fr.insee.rmes.bauhaus_services.rdf_utils.QueryUtils;
+import fr.insee.rmes-gestion-api.utils.QueryUtils;
 import fr.insee.core.exceptions.RmesException;
-import fr.insee.rmes.persistance.sparql_queries.concepts.ConceptsQueries;
 
-public class ConceptsImpl implement ConceptsServices {
+public class ConceptsImpl implements ConceptsServices {
 
 	@Override
 	public String getConcepts()  throws RmesException{
