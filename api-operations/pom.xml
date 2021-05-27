@@ -7,4 +7,5 @@
   </parent>
   <artifactId>api-operations</artifactId>
   <name>api-operations</name>
+	<packaging>pom</packaging>
 </project>

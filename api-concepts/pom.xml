@@ -12,4 +12,5 @@
 	<modules>
 		<module>core</module>
 	</modules>
+	<packaging>pom</packaging>
 </project>
